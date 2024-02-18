@@ -9,7 +9,7 @@ public class Calculator {
         double b = sc.nextDouble();
         System.out.println("What do you want perform (+ for Addition, - for Subtraction, * for Multiplication, / for Division, % for Modulo): ");
         char c = sc.next().charAt(0);
-        while(c!='+' || c!='-' || c!='*' || c!='/' || c!='%'){
+        while(c!='+' && c!='-' && c!='*' && c!='/' && c!='%'){
                 System.out.println("Enter valid character: ");
                 c = sc.next().charAt(0);
         }
