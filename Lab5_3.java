@@ -32,7 +32,8 @@ public class Lab5_3 {
         Scanner sc= new Scanner(System.in);
         String str;
         while (true) {
-            str = sc.nextLine().toLowerCase();
+            System.out.println("Enter a string: ");
+            str = sc.nextLine().toLowerCase().trim();
             if(str.equals("quit")) break;
             Vowel v = new Vowel(str);
             v.countEachVowel(str);
