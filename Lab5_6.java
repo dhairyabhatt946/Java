@@ -15,6 +15,6 @@ public class Lab5_6 {
         for(int i=0; i<c.length; i++) {
             c[i] = new Counter();
         }
-        System.out.println("Number of static objects created = "+c[n-1].count);
+        System.out.println("Number of static objects created = "+Counter.count);
     }
 }
